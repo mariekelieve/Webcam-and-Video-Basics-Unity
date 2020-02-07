@@ -554,4 +554,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   webcamFeed: {fileID: 305878698}
   videoFeed: {fileID: 336646594}
+  videoPlayback: {fileID: 336646600}
   showWebcam: 0

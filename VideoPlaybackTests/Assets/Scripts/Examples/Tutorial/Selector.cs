@@ -7,6 +7,7 @@ public class Selector : MonoBehaviour
 
     public GameObject webcamFeed;
     public GameObject videoFeed;
+    public BasicVideoPlayback videoPlayback;
 
     public bool showWebcam;
 
@@ -23,9 +24,11 @@ public class Selector : MonoBehaviour
             webcamFeed.SetActive(true);
             videoFeed.SetActive(false);
         }
+
         else {
             videoFeed.SetActive(true);
             webcamFeed.SetActive(false);
+            videoPlayback.StartVideoPlayback();
         }
     }
 }

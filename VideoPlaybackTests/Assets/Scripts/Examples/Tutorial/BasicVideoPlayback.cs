@@ -18,14 +18,22 @@ public class BasicVideoPlayback : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if(Input.GetKeyDown("1"))
+        if(Input.GetKeyDown("1")) { 
             _videoPlayer.url = "./Assets/Videos/" + "1.mp4";
-        if (Input.GetKeyDown("2"))
+            StartVideoPlayback();
+        }
+        if (Input.GetKeyDown("2")) { 
             _videoPlayer.url = "./Assets/Videos/" + "2.mp4";
-        if (Input.GetKeyDown("3"))
+            StartVideoPlayback();
+        }
+        if (Input.GetKeyDown("3")) { 
             _videoPlayer.url = "./Assets/Videos/" + "3.mp4";
+            StartVideoPlayback();
+        }
+    }
 
-        if (Input.GetKeyDown("space"))
-            _videoPlayer.Play();
+    public void StartVideoPlayback()
+    {
+        _videoPlayer.Play();
     }
 }
