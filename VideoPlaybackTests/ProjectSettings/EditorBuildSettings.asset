@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Debriefing.unity
+    guid: 2ef392da7127bc74c981ccbc80a7a55d
+  - enabled: 1
+    path: Assets/Scenes/Goodbye.unity
+    guid: bc055ada5fdf3a34aa5854cd771778fd
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 568a37b675d99d1499ef13fd4d973bf1
+  - enabled: 1
+    path: Assets/Scenes/Inter.unity
+    guid: 169771173bf922e4bacc72c930e0affc
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 955fc595da0ca8445a4715c167b0afcd
+  - enabled: 1
+    path: Assets/Scenes/VAS.unity
+    guid: 310025ed6b575c542a7c6b110adcf71f
+  - enabled: 1
+    path: Assets/Scenes/Video.unity
+    guid: ec668b1812be3014c877aa3f2b30c482
+  - enabled: 1
+    path: Assets/Scenes/Webcam.unity
+    guid: 08543d1045344944d9e0a02e2d263c8e
   m_configObjects: {}

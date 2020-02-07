@@ -1,0 +1,10 @@
+subject ID,age,gender,handedness,question ID,condition,value
+xx,xx,Female,Rigth handed,0,Webcam,0.22875
+subject ID,age,gender,handedness,question ID,condition,value
+subject ID,age,gender,handedness,question ID,condition,value
+xx,xx,Female,Rigth handed,0,Webcam,0.26875
+xx,xx,Female,Rigth handed,1,Webcam,0.75125
+xx,xx,Female,Rigth handed,2,Webcam,0.19125
+xx,xx,Female,Rigth handed,0,Video,0.09625
+xx,xx,Female,Rigth handed,1,Video,0.76375
+xx,xx,Female,Rigth handed,2,Video,0.26625

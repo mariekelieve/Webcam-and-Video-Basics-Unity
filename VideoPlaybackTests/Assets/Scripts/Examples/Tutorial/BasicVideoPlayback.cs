@@ -13,6 +13,7 @@ public class BasicVideoPlayback : MonoBehaviour
     void Start()
     {
         _videoPlayer.url = "./Assets/Videos/" + "1.mp4";
+        StartVideoPlayback();
     }
 
     // Update is called once per frame
