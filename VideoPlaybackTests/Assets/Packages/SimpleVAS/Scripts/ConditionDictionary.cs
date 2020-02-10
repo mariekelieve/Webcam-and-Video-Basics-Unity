@@ -24,9 +24,12 @@ namespace SimpleVAS
 		    for (int i = 0; i < selectedOrder.Length; i++) {
                 if (selectedOrder [i] == "1") selectedOrder[i] = conditions[i];
 			    if (selectedOrder [i] == "2") selectedOrder[i] = conditions[i];
-		    }
+				if (selectedOrder[i] == "3") selectedOrder[i] = conditions[i];
+				if (selectedOrder[i] == "4") selectedOrder[i] = conditions[i];
 
-	    }
+			}
+
+		}
     }
 
 }

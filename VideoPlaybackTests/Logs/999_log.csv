@@ -1,1 +1,22 @@
 subject ID,age,gender,handedness,question ID,condition,value
+subject ID,age,gender,handedness,question ID,condition,value
+subject ID,age,gender,handedness,question ID,condition,value
+999,999,Female,Rigth handed,0,Video,0.5038477
+999,999,Female,Rigth handed,1,Video,0.5546875
+999,999,Female,Rigth handed,2,Video,0.5334863
+999,999,Female,Rigth handed,0,Video,0.5289258
+999,999,Female,Rigth handed,1,Video,0.5741992
+999,999,Female,Rigth handed,2,Video,0.4891602
+subject ID,age,gender,handedness,question ID,condition,value
+999,999,Female,Rigth handed,0,Video,0.5083008
+999,999,Female,Rigth handed,1,Video,0.5303906
+999,999,Female,Rigth handed,2,Video,0.4795703
+999,999,Female,Rigth handed,0,Video,0.428418
+999,999,Female,Rigth handed,1,Video,0.5
+999,999,Female,Rigth handed,2,Video,0.4171973
+999,999,Female,Rigth handed,0,Webcam,0.5013574
+999,999,Female,Rigth handed,1,Webcam,0.4208691
+999,999,Female,Rigth handed,2,Webcam,0.5
+999,999,Female,Rigth handed,0,Webcam,0.5727929
+999,999,Female,Rigth handed,1,Webcam,0.5
+999,999,Female,Rigth handed,2,Webcam,0.5648633
