@@ -20,17 +20,17 @@ public class BasicVideoPlayback : MonoBehaviour
     void Update()
     {   
         if(Input.GetKeyDown("1")) { 
-            _videoPlayer.url = "./Assets/Videos/" + "1.mp4";
+            _videoPlayer.url = "./Assets/Videos/" + "1.mov";
             StartVideoPlayback();
         }
         if (Input.GetKeyDown("2")) { 
-            _videoPlayer.url = "./Assets/Videos/" + "2.mp4";
+            _videoPlayer.url = "./Assets/Videos/" + "2.mov";
             StartVideoPlayback();
         }
-        if (Input.GetKeyDown("3")) { 
-            _videoPlayer.url = "./Assets/Videos/" + "3.mp4";
-            StartVideoPlayback();
-        }
+       // if (Input.GetKeyDown("3")) { 
+         //   _videoPlayer.url = "./Assets/Videos/" + "3.mp4";
+           // StartVideoPlayback();
+       // }
     }
 
     public void StartVideoPlayback()
